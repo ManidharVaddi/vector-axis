@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+bcrypt
+scikit-learn
+numpy
+libsql
+python-dotenv

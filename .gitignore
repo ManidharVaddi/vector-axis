@@ -1,0 +1,11 @@
+venv/
+.env
+__pycache__/
+*.pyc
+vector_axis.db
+TursoDB_URL.txt
+test.py
+test_bar.html
+test_line.html
+test_pie.html
+test_radar_orange.html
