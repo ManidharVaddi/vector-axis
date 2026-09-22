@@ -17,7 +17,7 @@ TURSO_URL = os.getenv("TURSO_DATABASE_URL")
 TURSO_TOKEN = os.getenv("TURSO_AUTH_TOKEN")
 
 
-@st.cache_resource
+@st.cache_resource(ttl=300)
 def _get_shared_connection():
     conn = libsql.connect(database=TURSO_URL, auth_token=TURSO_TOKEN)
     try:
